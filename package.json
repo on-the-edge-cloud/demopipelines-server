@@ -1,0 +1,32 @@
+{
+  "name": "demopipelines-server",
+  "version": "0.0.1",
+  "description": "Demo pipelines server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/on-the-edge-cloud/demopipelines-server.git"
+  },
+  "keywords": [
+    "demo",
+    "pipelines",
+    "server"
+  ],
+  "author": "Tomás Novau Foresi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/on-the-edge-cloud/demopipelines-server/issues"
+  },
+  "homepage": "https://github.com/on-the-edge-cloud/demopipelines-server#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "volta": {
+    "node": "22.12.0"
+  },
+  "type": "module"
+}
