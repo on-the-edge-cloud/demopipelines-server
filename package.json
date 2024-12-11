@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-	"start-daemon": "pm2 start index.js",
-	"stop-daemon": "pm2 stop index.js",
+    "start-daemon": "pm2 start index.js",
+    "monitor": "pm2 monit",
+    "stop-daemon": "pm2 stop index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
